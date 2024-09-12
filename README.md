@@ -3,6 +3,9 @@ This repository contains partial source code for the paper
 
 > Florian Euchner, Phillip Stephan, Stephan ten Brink: "Leveraging the Doppler Effect for Channel Charting", 25th IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2024
 
+* [Link to the Paper on arXiv](https://arxiv.org/abs/2404.09620)
+* [Download SPAWC2024 Poster](spawc2024_poster.pdf)
+
 ### Bullet Point Summary
 * [Channel State Information (CSI) fingerprinting](https://dichasus.inue.uni-stuttgart.de/tutorials/tutorial/positioning/) is a radio localization technique that identifies the position of transmitters based on CSI. Basically, we have some machine learning model (could be a neural network, or just nearest neighbor search) to predict transmitter locations given CSI after having trained it on a large collection of `(CSI, position)` examples in a supervised manner. The problem is that we need a large dataset of *labelled* training examples, which we cannot expect to have in practice.
 * [Channel Charting](https://channelcharting.github.io/) can solve this. Instead of learning the CSI-to-position mapping in a supervised way, we exploit similarity relationships in CSI and use self-supervised learning. The [original paper](https://arxiv.org/abs/1807.05247) first proposing Channel Charting explains the concept neatly.
