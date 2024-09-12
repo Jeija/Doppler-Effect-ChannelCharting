@@ -1,7 +1,7 @@
 # Leveraging the Doppler Effect for Channel Charting
 This repository contains partial source code for the paper
 
-    Florian Euchner, Phillip Stephan, Stephan ten Brink: "Leveraging the Doppler Effect for Channel Charting"
+> Florian Euchner, Phillip Stephan, Stephan ten Brink: "Leveraging the Doppler Effect for Channel Charting", 25th IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2024
 
 ### Bullet Point Summary
 * [Channel State Information (CSI) fingerprinting](https://dichasus.inue.uni-stuttgart.de/tutorials/tutorial/positioning/) is a radio localization technique that identifies the position of transmitters based on CSI. Basically, we have some machine learning model (could be a neural network, or just nearest neighbor search) to predict transmitter locations given CSI after having trained it on a large collection of `(CSI, position)` examples in a supervised manner. The problem is that we need a large dataset of *labelled* training examples, which we cannot expect to have in practice.
@@ -65,6 +65,15 @@ Ground Truth Positions | AoA / ToA-Augmented CC
 :-:|:-:
 <img src="img/groundtruth.png" alt="Augmented Channel Chart" width=320> | <img src="img/channel_chart_aoa_toa.png" alt="Augmented Channel Chart" width=320>
 
+### Citation
+```bibtex
+@inproceedings{doppler-cc,
+	author    = {Euchner, Florian and Stephan, Phillip and ten Brink, Stephan},
+	title     = {{Leveraging the Doppler Effect for Channel Charting}},
+	booktitle = {25th IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)},
+	year      = {2024}
+}
+```
 
 ### Other Resources
 * [Christoph Studer's Channel Charting Website](https://channelcharting.github.io/)
