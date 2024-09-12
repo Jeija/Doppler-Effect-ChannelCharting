@@ -36,7 +36,7 @@ See the paper for details.
 
 ### Prerequisites
 Our code is based on Python, TensorFlow, NumPy, SciPy and Matplotlib.
-Source files are provided as Jupyter Notebooks, which can be opened directly here on GitHub or using e.g. [https://jupyter.org/](JupyterLab).
+Source files are provided as Jupyter Notebooks, which can be opened directly here on GitHub or using, e.g., [JupyterLab](https://jupyter.org/).
 
 We run our Channel Charting experiments on a JupyterHub server with NVMe storage, AMD EPYC 7262 8-Core Processor, 64GB RAM, and a NVIDIA GeForce RTX 4080 GPU for accelerating TensorFlow.
 All indications of computation times are measured on this system.
